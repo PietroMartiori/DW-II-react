@@ -1,4 +1,4 @@
-import Divprodutos from './att3tailwind';
+import CardProduto from './att3tailwind';
 
 export default function App() {
   return (
@@ -7,7 +7,7 @@ export default function App() {
 
       <hr />
       <h2>  Atividade </h2>
-      <Divprodutos />
+      <CardProduto />
 
     </div>
 
