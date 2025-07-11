@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './app.css'; 
+import './form.css'; 
 
 export default function Form() {
   const [formData, setFormData] = useState({ name: '', email: '' });
@@ -47,7 +47,7 @@ export default function Form() {
       </div>
       <button
         type="submit"
-        className="bg-black text-black px-4 py-2 rounded-md hover:bg-blue-600 transition"
+        className="botao"
       >
         Enviar
       </button>

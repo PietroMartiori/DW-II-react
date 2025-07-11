@@ -1,8 +1,9 @@
 import Form from "./form";
+import './app.css';
  
 export default function App(){
     return(
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="app-container">
       <Form />
     </div>
     );
