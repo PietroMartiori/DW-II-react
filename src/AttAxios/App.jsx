@@ -1,4 +1,3 @@
-//import ListaPosts from './exemplo'
 import ListaUsuarios from './att1'
 
 export default function App() {
