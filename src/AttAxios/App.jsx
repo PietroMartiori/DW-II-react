@@ -1,4 +1,5 @@
-import ListaPosts from './exemplo'
+//import ListaPosts from './exemplo'
+import ListaUsuarios from './att1'
 
 export default function App() {
   return (
@@ -7,7 +8,7 @@ export default function App() {
 
       <hr />
       <h2>  Exemplo </h2>
-      <ListaPosts />
+      <ListaUsuarios />
 
     </div>
 
