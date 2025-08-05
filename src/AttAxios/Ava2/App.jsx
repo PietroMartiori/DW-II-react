@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import api from './api';
-import UserForm from './Userform';
-import UserList from './Userlist';
+import api from './services/api'
+import UserForm from './components/Userform';
+import UserList from './components/Userlist';
 
 const App = () => {
   const [users, setUsers] = useState([]);

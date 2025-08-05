@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import './UserForm.css';
 
 const UserForm = ({ onSubmit, selectedUser, clearSelection }) => {
   const [name, setName] = useState('');
@@ -24,25 +23,45 @@ const UserForm = ({ onSubmit, selectedUser, clearSelection }) => {
     setEmail('');
   };
 
-  return (
-    <form onSubmit={handleSubmit}>
-      <h2>{selectedUser ? 'Editar Usuário' : 'Adicionar Usuário'}</h2>
+return (
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-2.5 mb-7"
+    >
+      <h2 className="text-xl font-bold mb-3">
+        {selectedUser ? 'Editar Usuário' : 'Adicionar Usuário'}
+      </h2>
+
       <input
         type="text"
         placeholder="Nome"
         value={name}
         onChange={(e) => setName(e.target.value)}
+        className="p-2.5 border border-gray-300 rounded-md"
       />
+
       <input
         type="email"
         placeholder="E-mail"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        className="p-2.5 border border-gray-300 rounded-md"
       />
-      <div style={{ display: 'flex', gap: '10px' }}>
-        <button type="submit">{selectedUser ? 'Atualizar' : 'Adicionar'}</button>
+
+      <div className="flex gap-2.5">
+        <button
+          type="submit"
+          className="bg-blue-600 text-white p-2.5 rounded-md cursor-pointer hover:bg-blue-800 transition"
+        >
+          {selectedUser ? 'Atualizar' : 'Adicionar'}
+        </button>
+
         {selectedUser && (
-          <button type="button" onClick={clearSelection}>
+          <button
+            type="button"
+            onClick={clearSelection}
+            className="bg-blue-600 text-white p-2.5 rounded-md cursor-pointer hover:bg-blue-800 transition"
+          >
             Cancelar
           </button>
         )}
