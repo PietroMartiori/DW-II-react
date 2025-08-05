@@ -12,15 +12,6 @@ input:focus {
     border: 2px solid black;
 }
 
-.titulo {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    text-align: center;
-    color: #000000;
-}
-
 .nome {
     display: block;
     margin-bottom: 0.25rem;
