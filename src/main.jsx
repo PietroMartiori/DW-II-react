@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './Aula 20/Att Trio/App';
+import App from './Aula21/Att Json Refetorado/App';
 
 import './index.css';
 

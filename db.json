@@ -1,10 +1,22 @@
 {
-"posts": [
-{ "id": 1, "title": "json-server", "author": "typicode" },
-{ "id": 2, "title": "Hello React", "author": "Renato" }
-],
-"comments": [
-{ "id": 1, "body": "some comment", "postId": 1 }
-],
-"profile": { "name": "Aluno" }
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Notebook Gamer",
+      "preco": 5500,
+      "categoria": "Eletrônicos"
+    },
+    {
+      "id": "2",
+      "nome": "Smartphone Avançado",
+      "preco": 3200,
+      "categoria": "Eletrônicos"
+    },
+    {
+      "id": "3",
+      "nome": "Fone de Ouvido Bluetooth",
+      "preco": 450,
+      "categoria": "Acessórios"
+    }
+  ]
 }
