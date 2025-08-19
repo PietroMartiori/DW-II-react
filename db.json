@@ -7,10 +7,10 @@
       "categoria": "Eletrônicos"
     },
     {
-      "id": "2",
       "nome": "Smartphone Avançado",
       "preco": 3200,
-      "categoria": "Eletrônicos"
+      "categoria": "Eletrônicos",
+      "id": "2"
     },
     {
       "id": "3",
